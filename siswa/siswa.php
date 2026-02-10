@@ -209,11 +209,11 @@
                                 
                                     <tbody>
                                         <tr>
-                                            <td><?php echo $i++ ?></td>
-                                            <td><?php echo $d["nama"] ?></td>
-                                            <td><?php echo $d["nisn"] ?></td>
-                                            <td><?php echo $d["email"] ?></td>
-                                            <td><?php echo $d["jk"] ?></td>
+                                            <td><?php echo $i++; ?></td>
+                                            <td><?php echo $d['nama'] ?></td>
+                                            <td><?php echo $d['nisn'] ?></td>
+                                            <td><?php echo $d['email'] ?></td>
+                                            <td><?php echo $d['jk'] ?></td>
                                             <td>
                                                 <a href="editsiswa.php" class="btn btn-success btn-sa"><i class="fa fa-edit"></i></a>
                                                 <button class="btn btn-danger btn-sa"><i class="fa fa-trash"></i></button>
